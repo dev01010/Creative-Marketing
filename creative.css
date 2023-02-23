@@ -1,0 +1,126 @@
+* {
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1c426f;
+  font-family: sans-serif;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+
+.left-h {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#creative {
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 25px;
+}
+#marketing {
+  color: goldenrod;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.right-h ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  list-style: none;
+  gap: 1.5rem;
+  color: beige;
+}
+
+.right-h ul li:hover {
+  border-bottom: 3px solid goldenrod;
+  color: azure;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+}
+
+.left-aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1.2;
+  padding-top: 40px;
+}
+.subscribe {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscribe :nth-child(1) {
+  font-size: 40px;
+  margin-bottom: 0;
+  font-weight: bold;
+  color: goldenrod;
+}
+.subscribe :nth-child(2) {
+  font-size: 40px;
+  margin-top: 0;
+  font-weight: bold;
+}
+.subscribe p {
+  color: aliceblue;
+}
+
+.subscribe input {
+  border: none;
+  width: 75%;
+  padding: 10px 20px;
+  border-radius: 40px;
+  outline: none;
+}
+
+.subscribe button {
+  width: 30%;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: goldenrod;
+  border: thin;
+  cursor: pointer;
+}
+
+.right-aside {
+  display: flex;
+  flex: 1;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card img {
+  height: 200px;
+  width: 220px;
+  margin-bottom: 0;
+  border-radius: 20px;
+}
+
+.card h3 {
+  text-align: center;
+  color: goldenrod;
+  margin-top: 0;
+  border-bottom: 3px solid aliceblue;
+}
